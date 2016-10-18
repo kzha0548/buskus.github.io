@@ -49,7 +49,7 @@ float: left;
     padding-top: 20px;
      padding-left: 0px;
 	padding-right: auto;
-    width:38%;
+    width:40%;
     
 }
 
@@ -79,7 +79,7 @@ padding-left: 2%;
 
 #second{
     background-color:none; 
-    width: 24%;
+    width: 20%;
     height: 45px;
     float: left;
     padding-top: 0px
@@ -126,7 +126,7 @@ float: right;
     padding-top: 20px;
      padding-left: 0px;
 	padding-right: auto;
-    width:38%;
+    width:40%;
     
 }
 
@@ -208,13 +208,30 @@ IMG.display{
 }
 
 
+.photobar{
+    background-color: rgb(170, 62, 3);
+    width: 100%;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+    float:left;
+    background: url("storm-05.png");
+   
+}
 
+.photobar img{
+    float: left;
+    padding-left: 4%;
+    padding-top: 10px;
+ 
+   
+}
 
     
 
 .title {
     background-color: rgb(222, 219, 236);
-    width: 60%;
+    width: 100%;
     height: 18px;
     text-align: center;
     padding-top: 8px;
@@ -224,45 +241,12 @@ IMG.display{
    
 }
 
-.pretitle{
-    background-color: rgb(222, 219, 236);
-   width: 20%;
-    height: 26px; 
-    float:left;
-    
-}
-
-.posttitle{
-    background-color: rgb(222, 219, 236);
-   width: 20%;
-    height: 26px; 
-    float:left;
-    
-    
-}
-
-
-.posttitle img{
-  float: left;
-    padding-top: 7px;
-    
-}
-
 .topspace{
     width: 100%;
-    height: 110px;
+    height: 140px;
     float:left;
 }
 
-
-#alphabet{
-    width: 100%;
-    float: left;
-    height: 28px;
-    background-color: rgba(250,250,250, 0.7);
-    margin-top: 16px;
-    
-}
 
 .songs {
     background-color:none;
@@ -270,6 +254,7 @@ IMG.display{
     height: 50px;
     border-bottom: 1px solid rgb(235, 235, 235);
     float:left;
+   
 }
 
 .songs1{
@@ -280,7 +265,7 @@ IMG.display{
     float: left;
     text-align: right;
     padding-right: 4%;
-        font-size: 12pt;
+        font-size: 12;
         color: grey;
         
 }
