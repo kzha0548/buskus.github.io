@@ -56,8 +56,8 @@ float: left;
 
  #first ul li{
     list-style: none;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
      padding-top: 0px;
      margin-top: 0px;
      float: left;
@@ -132,8 +132,8 @@ float: right;
 
  #third ul li{
     list-style: none;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
      padding-top: 0px;
      margin-top: 0px;
      float: right;
