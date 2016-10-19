@@ -1,0 +1,353 @@
+body{
+    margin: 0;
+	/*color:rgba(105,126,143,1);*/
+	font-family: "12 Avenir 85 Heavy 08173", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+    font-weight: 100;
+    background-size: cover;
+    color: rgb(85, 85, 85);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: none;
+    padding-top: 0px;
+     padding-left: 0%;
+	padding-right: 0%;
+    position: fixed;
+    bottom: 0;
+}
+
+.nav{
+    height: 45px;
+    background-color: none;
+    padding-left: 0px;
+	padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+
+
+
+    
+
+#first{
+float: left;
+    height: 45px;
+    background-color: none;
+    position: relative;
+    padding-top: 20px;
+     padding-left: 0px;
+	padding-right: auto;
+    width:40%;
+    
+}
+
+
+ #first ul li{
+    list-style: none;
+    padding-left: 12%;
+    padding-right: 0%;
+     padding-top: 0px;
+     margin-top: 0px;
+     float: left;
+    
+}
+
+#first ul {
+padding-left: 2%;
+    background-color: rgb(70, 62, 103);
+    padding-top: 2px;
+    margin-top: 0px;
+    height: 50px;
+  
+    
+}
+
+
+
+
+#second{
+    background-color:none; 
+    width: 20%;
+    height: 45px;
+    float: left;
+    padding-top: 0px
+    
+        
+       
+}
+
+
+
+#secondnav{
+    background-color: rgb(70, 62, 103);
+    width: 100%;
+    height: 45px;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
+
+#secondnav1{
+    height: 20px;
+}
+
+
+#secondnav1 a img{
+
+   margin-left: auto;
+    padding-left: auto;
+    padding-right: auto;
+    padding-left: auto;
+    margin-top: 0px;
+        padding-top:auto;
+        
+}
+
+
+
+#third{
+float: right;
+    height: 45px;
+     background-color:none;
+   
+    position: relative;
+    padding-top: 20px;
+     padding-left: 0px;
+	padding-right: auto;
+    width:40%;
+    
+}
+
+ #third ul li{
+    list-style: none;
+    padding-left: 0%;
+    padding-right: 12%;
+     padding-top: 0px;
+     margin-top: 0px;
+     float: right;
+    
+}
+
+#third ul {
+padding-left: 2%;
+    background-color: rgb(70, 62, 103);
+    padding-top: 2px;
+    margin-top: 0px;
+    height: 45px;
+  
+    
+}
+
+IMG.display{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/*--------------------------------------------*/
+
+
+.topcontainer{
+ width: 100%;
+    height: 60px;
+    background-color: none;
+    padding-top: 0px;
+     padding-left: 0%;
+	padding-right: 0%;
+    position: fixed;
+    top: 0;
+}
+
+
+.topbar{
+    background-color: rgb(70, 62, 103);
+    width: 100%;
+    height: 40px;
+    float:left;
+    
+}
+
+.topbar1{
+   width: 15%;
+    height: 40px; 
+    background-color:none;
+     float:left;
+    
+}
+
+.topbar2{
+    width: 70%;
+    background-color:none;
+    height: 22px;
+    float:left;
+    padding-top: 8px;
+}
+
+
+.topbar3{
+    width: 15%;
+    background-color:none;
+    height: 37px;
+    float:right;
+    padding-top: 3px;
+}
+
+
+.photobar{
+    background-color: rgb(170, 62, 3);
+    width: 100%;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+    float:left;
+    background: url("storm-05.png");
+   
+}
+
+.photobar img{
+    float: left;
+    padding-left: 4%;
+    padding-top: 10px;
+ 
+   
+}
+
+    
+
+.title {
+    background-color: rgb(222, 219, 236);
+    width: 40%;
+    height: 18px;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 0px;
+    float:left;
+    font-size: 8pt;
+   
+}
+
+.pretitle{
+    background-color: rgb(222, 219, 236);
+   width: 30%;
+    height: 23px; 
+    float:left;
+    padding-top:3px;
+    
+}
+
+.pretitle img{
+    float:left;
+    padding-left: 10%;
+}
+
+.posttitle{
+    background-color: rgb(222, 219, 236);
+   width: 30%;
+    height: 26px; 
+    float:left;
+    
+    
+}
+
+.topspace{
+    width: 100%;
+    height: 140px;
+    float:left;
+}
+
+
+.songs {
+    background-color:none;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    float:left;
+   
+}
+
+.songs1{
+    background-color:none; 
+    width: 11%;
+    padding-top: 20px;
+    height: 28px;
+    float: left;
+    text-align: right;
+    padding-right: 4%;
+        font-size: 12;
+        color: grey;
+        
+}
+
+
+.songs1 img{
+    float:right;
+    
+}
+.songs2{
+    background-color:none; 
+    width: 70%;
+    height: 100%;
+    float: left;
+  
+}
+
+.upper{
+     background-color:none; 
+    width: 100%;
+    height: 16px;
+    float: left;
+    padding-top: 14px;
+    font-size: 10pt;
+}
+
+.lower{
+     background-color:none; 
+    width: 100%;
+    height: 20px;
+    float: left;  
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 0px;
+    font-size: 7pt;
+}
+
+.songs3{
+    background-color:none; 
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+.songs3 img{
+    margin-top: 18px;
+  
+}
+
+.basespace{
+    width: 100%;
+    height: 40px;
+    float:left;
+}
+
+
+
+
+
+
+
+

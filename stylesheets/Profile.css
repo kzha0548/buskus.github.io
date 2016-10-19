@@ -1,0 +1,420 @@
+body{
+    margin: 0;
+	/*color:rgba(105,126,143,1);*/
+	font-family: "12 Avenir 85 Heavy 08173", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+    font-weight: 100;
+    background-size: cover;
+    color: rgb(85, 85, 85);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: none;
+    padding-top: 0px;
+     padding-left: 0%;
+	padding-right: 0%;
+    position: fixed;
+    bottom: 0;
+}
+
+.nav{
+    height: 45px;
+    background-color: none;
+    padding-left: 0px;
+	padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+
+
+
+    
+
+#first{
+float: left;
+    height: 45px;
+    background-color: none;
+    position: relative;
+    padding-top: 20px;
+     padding-left: 0px;
+	padding-right: auto;
+    width:40%;
+    
+}
+
+
+ #first ul li{
+    list-style: none;
+    padding-left: 12%;
+    padding-right: 0%;
+     padding-top: 0px;
+     margin-top: 0px;
+     float: left;
+    
+}
+
+#first ul {
+padding-left: 2%;
+    background-color: rgb(70, 62, 103);
+    padding-top: 2px;
+    margin-top: 0px;
+    height: 50px;
+  
+    
+}
+
+
+
+
+#second{
+    background-color:none; 
+    width: 20%;
+    height: 45px;
+    float: left;
+    padding-top: 0px
+    
+        
+       
+}
+
+
+
+#secondnav{
+    background-color: rgb(70, 62, 103);
+    width: 100%;
+    height: 45px;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
+
+#secondnav1{
+    height: 20px;
+}
+
+
+#secondnav1 a img{
+
+   margin-left: auto;
+    padding-left: auto;
+    padding-right: auto;
+    padding-left: auto;
+    margin-top: 0px;
+        padding-top:auto;
+        
+}
+
+
+
+#third{
+float: right;
+    height: 45px;
+     background-color:none;
+   
+    position: relative;
+    padding-top: 20px;
+     padding-left: 0px;
+	padding-right: auto;
+    width:40%;
+    
+}
+
+ #third ul li{
+    list-style: none;
+    padding-left: 0%;
+    padding-right: 12%;
+     padding-top: 0px;
+     margin-top: 0px;
+     float: right;
+    
+}
+
+#third ul {
+padding-left: 2%;
+    background-color: rgb(70, 62, 103);
+    padding-top: 2px;
+    margin-top: 0px;
+    height: 45px;
+  
+    
+}
+
+IMG.display{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/*--------------------------------------------*/
+
+
+.topcontainer{
+ width: 100%;
+    height: 60px;
+    background-color: none;
+    padding-top: 0px;
+     padding-left: 0%;
+	padding-right: 0%;
+    position: fixed;
+    top: 0;
+}
+
+
+.topbar{
+    background-color: rgb(70, 62, 103);
+    width: 100%;
+    height: 40px;
+    float:left;
+    
+}
+
+.topbar1{
+   width: 15%;
+    height: 40px; 
+    background-color:none;
+     float:left;
+    
+}
+
+.topbar2{
+    width: 70%;
+    background-color:none;
+    height: 22px;
+    float:left;
+    padding-top: 8px;
+}
+
+
+.topbar3{
+    width: 15%;
+    background-color:none;
+    height: 37px;
+    float:right;
+    padding-top: 3px;
+}
+
+
+.photobar{
+    background-color: rgb(170, 62, 3);
+    width: 100%;
+    height: 178px;
+    padding: 0;
+    margin: 0;
+    float:left;
+    background: url("stormlarge-16.png");
+   
+}
+
+.photobarleft{
+    width: 37%;
+        height: 95px;
+    float: left;
+   
+}
+
+.photobarmid{
+    width: 25%;
+        height: 85px;
+    float: left;
+    padding-top: 10px;
+   
+    padding-left: 1%;
+}
+
+.photobarright{
+    width: 37%;
+        height: 95px;
+    float: left;
+  
+}
+
+
+.photobar img{
+    float: left;
+    padding-left: 4%;
+    padding-top: 10px;
+ 
+   
+}
+
+.headerdetails{
+    width: 100%;
+        height: 50px;
+    float: left;
+   
+    padding: 0;
+    margin: 0;
+    
+}
+
+.headerdetails img{
+ margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 31%;
+    padding-left: auto;
+}
+
+
+
+.aboutme{
+    width: 90%;
+        height: 22px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 7pt;
+    text-align: center;
+    padding-top: 11px;
+}
+
+.aboutme2{
+    width: 10%;
+        height: 29px;
+     background-color: rgba(255, 255, 255, 0.7);
+    float: left;
+     padding-top: 4px;
+}
+    
+
+.title {
+    background-color: rgb(222, 219, 236);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 0px;
+    float:left;
+    font-size: 8pt;
+   
+}
+
+
+.titleleft{
+    height: 36;
+    width: 50%;
+    float: left;
+}
+
+.titleright{
+    height: 36;
+    width: 50%;
+    float: left;
+}
+
+.topspace{
+    width: 100%;
+    height: 252px;
+    float:left;
+}
+
+.fullcoin {
+    background-color:none;
+    width: 100%;
+    height: 72px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    float:left;
+}
+
+
+.coins {
+    background-color:none;
+    width: 100%;
+    height: 40px;
+    float:left;
+   
+}
+
+.upper{
+     background-color:none; 
+    width: 100%;
+    height: 20px;
+    float: left;
+    padding-top: 20px;
+    font-size: 20pt;
+    text-align: center;
+    
+}
+
+.lower{
+     background-color:none; 
+    width: 100%;
+    height: 16px;
+    float: left;  
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 8px;
+    font-size: 7pt;
+    text-align: center;
+}
+
+
+
+
+.songs {
+    background-color:none;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    float:left;
+   
+}
+
+.songs1{
+    background-color:none; 
+    width: 11%;
+    padding-top: 20px;
+    height: 28px;
+    float: left;
+    
+        
+}
+.songs2{
+    background-color:none; 
+    width: 70%;
+    height: 20px;
+    float: left;
+    padding-top: 20px;
+  
+}
+
+
+.songs3{
+    background-color:none; 
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+.songs3 img{
+    margin-top: 18px;
+  
+}
+
+.basespace{
+    width: 100%;
+    height: 40px;
+    float:left;
+}
+
+
+
+
+
+
+
+
