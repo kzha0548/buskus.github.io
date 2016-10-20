@@ -108,9 +108,14 @@
         
         <div class ="topspace"></div>
         
+        <!--------------------------------------------->
         
+      <ul id="ulThumbnailList">
+          
+       <li data-storyid="1" class="sortlistitem">   
        <a href="#"> <div class ="songs">
             <div class ="songs1"><img class="display" src="images/delete-07.png" alt="logo" height="13px"/></div><!--end of songs1-->
+            
             
             <div class ="songs2">
                 <div class ="upper">Say You Won't Let Go</div>
@@ -122,9 +127,12 @@
                 <a href="#"><img class="display" src="images/drag-15.png" alt="logo" height="20px"/></a>
             
             </div><!--end of songs3-->
+               
             
         </div><!--end of songs--></a>
-        
+          </li>
+            
+        <li data-storyid="2" class="sortlistitem">
          <a href="#"><div class ="songs">
             <div class ="songs1"><img class="display" src="images/delete-07.png" alt="logo" height="13px"/></div><!--end of songs1-->
             
@@ -140,8 +148,9 @@
             </div><!--end of songs3-->
             
         </div><!--end of songs--></a>
+          </li>
         
-        
+    <li data-storyid="3" class="sortlistitem">
         <a href="#"> <div class ="songs">
             <div class ="songs1"><img class="display" src="images/delete-07.png" alt="logo" height="13px"/></div><!--end of songs1-->
             
@@ -157,8 +166,9 @@
             </div><!--end of songs3-->
             
         </div><!--end of songs--></a>
+          </li>
         
-        
+        <li data-storyid="4" class="sortlistitem">
          <a href="#"><div class ="songs">
             <div class ="songs1"><img class="display" src="images/delete-07.png" alt="logo" height="13px"/></div><!--end of songs1-->
             
@@ -174,7 +184,8 @@
             </div><!--end of songs3-->
             
         </div><!--end of songs--></a>
-        
+          </li>
+          <li data-storyid="5" class="sortlistitem">
         
          <a href="#"><div class ="songs">
             <div class ="songs1"><img class="display" src="images/delete-07.png" alt="logo" height="13px"/></div><!--end of songs1-->
@@ -191,12 +202,45 @@
             </div><!--end of songs3-->
             
         </div><!--end of songs--></a>
+          </li>
  
 
-
+        </ul>
         
+          
+    <!-- -------------------------------------------- --->
+        
+          
         <div class ="basespace"></div>
 
+        
+       <!-- -------------------------------------------- --->
+        
+         <script src="jquery-3.1.1.min.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    
+
+    <script>
+        $(document).ready(function () {
+             $('#btnSave').hide();
+            $("#ulThumbnailList").sortable({
+                opacity: 0.7,
+                revert: true,   //Animates
+                scroll: true,   //Allows page to scroll when dragging. Good for tall pages.
+                handle: $(".songs"),
+                update: function () {  $('#btnSave').show() }
+            });
+        $('#btnSave').on('click', function(){
+            var items = $(".sortlistitem");
+            var itemIds = [];
+            for (var x = 0; x < items.length; x++) {
+                itemIds.push(items.eq(x).data('storyid'));
+            }
+            var parms = { "stories": itemIds.join(',') };
+            alert(itemIds.join(',')); 
+        });
+        })
+    </script>
         
        
     </div><!--end of container-->
