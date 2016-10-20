@@ -37,6 +37,20 @@ a {
     
 }
 
+ul{
+    text-decoration: none;
+     list-style: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+li{
+    text-decoration: none;
+     list-style: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
 
 
     
@@ -268,7 +282,24 @@ IMG.display{
     width: 100%;
     height: 140px;
     float:left;
+    background-color: none;
 }
+
+#ulThumbnailList{
+    height: 255px;
+    width: 100%;
+    background-color: none;
+   float:left;
+     cursor: pointer;
+}
+.sortlistitem {
+
+    background-color: none;
+     height: 52px;
+    width: 100%;
+}
+
+
 
 
 .songs {
