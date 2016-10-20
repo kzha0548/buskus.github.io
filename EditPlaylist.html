@@ -220,7 +220,7 @@
     <script src="javascripts/jquery-ui.js"></script>
         
            
-        <script src="jquery.ui.touch-punch.min.js"></script>
+        <script src="javascripts/jquery.ui.touch-punch.min.js"></script>
    
        
     <script>
@@ -233,7 +233,7 @@
                 handle: $(".songs3"),
                 update: function () {  $('#btnSave').show() }
             });
-        $('#btnSave').on('touch', function(){
+        $('#btnSave').on('click', function(){
             var items = $(".sortlistitem");
             var itemIds = [];
             for (var x = 0; x < items.length; x++) {
