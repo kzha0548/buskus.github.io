@@ -318,7 +318,7 @@ IMG.display{
 }
 
 .leftspace{
-    height: 20;
+    height: 20px;
     width: 25%;
     float: left;
 }
@@ -332,12 +332,12 @@ IMG.display{
 }
 
 .titleright{
-    height: 20;
+    height: 20px;
     width: 25%;
     float: left;
 }
 .rightspace{
-    height: 20;
+    height: 20px;
     width: 25%;
     float: left;
 }
