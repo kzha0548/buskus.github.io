@@ -324,7 +324,7 @@ IMG.display{
 }
 
 .titleleft{
-    height: 20;
+    height: 20px;
     width: 25%;
     float: left;
     border-bottom: 1px solid rgb(100, 100, 100);
